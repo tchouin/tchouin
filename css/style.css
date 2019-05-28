@@ -1,0 +1,127 @@
+body,html{
+    margin: 0;
+    height:100%;
+}
+.footerbck{
+
+
+    background-color: black;
+
+}
+.habagur{
+
+    background-image: url("../img/img/bitmap.png");
+    background-position: center;
+    background-size: 100%;
+}
+.banner{
+    height: 100%;
+    background-image: url("../img/img/test.jpg");
+    background-position: center;
+}
+@media only screen and (max-width: 480px){
+    .paddington{
+        background-image: url("../img/img/fond2.jpg");
+        background-position: center;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 1124px){
+    .banner{
+        height: 100%;
+        background-image: url("../img/img/patrol.jpg");
+        background-position: center;
+    }
+}
+.ajust{
+    color: #e0a800;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.marge{
+    margin-top: 20px;
+}
+.marge2{
+    margin-top: 100px;
+}
+.bck{
+    height: 100%;
+    background-color: black;
+    background-position: center;
+}
+.bck2{
+    height: 150%;
+    background-color: black;
+    background-position: center;
+}
+.faw{
+    height: 20%;
+    background-color: green;
+}
+.hauteur100{
+    height:100%;
+}
+.paddington{
+    background-image: url("../img/img/test.jpg");
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url("../img/img/test.jpg");
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.folio{
+    width: 100%;
+}
+
+ .zoom {
+
+     transition: transform .2s; /* Animation */
+     margin: 0 auto;
+ }
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+
+    right: 0;
+    bottom: 0;
+
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
